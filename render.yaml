@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: bot-cripto
+    env: python
+    plan: free
+    buildCommand: ""
+    startCommand: python bot_cripto.py
